@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/remixicon.css">
+	<title>My portfolio</title>
+	
+</head>
+<body>
+
+	<header class="header" id="header">
+		<nav class="navbar container flex	">
+			<a href="index.html" class="logo">Samir Shamuradov <i class="ri-thumb-down-fill"></i></a>
+		<div class="menu" id="menu">
+			<ul class="list">
+				<li class="list-item active">
+					<a href="#home" class="list-link">Home</a></li>
+				<li class="list-item">
+					<a href="#about" class="list-link">About me</a></li>
+				<li class="list-item">
+					<a href="#projects" class="list-link">Projects</a></li>
+				<li class="list-item">
+					<a href="#contacts" class="list-link">Contacts</a></li>
+			</ul>
+		</div>
+		</nav>
+	</header>
+	<div class="top-baner">
+		<div class="container">
+			<h1>I'm Samir</h1>
+		<h2>I build beutiful <span class="highlight">responsive websites</span></h2>
+		<div class="buttons-block">
+			<a href="#projects" class="baner-button">View portfolio</a>
+			<a href="#contacts" class="baner-button">Hire me</a>
+		</div>
+		</div>
+	</div>
+	<section id="about">
+		<div class="container flex">
+			<div  class="left-side">
+				<h3>I can help.</h3>
+			</div>
+			<div class="right-side">
+				<p class="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros <br> elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo <br>diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem <br>vitae risus tristique posuere.</p>
+
+				<div class="my-skills">
+					<div class="progress-bar skill1">
+						<div class="progress-bar-fill"></div>
+						<span>Html/css</span>
+					</div>
+						<div class="progress-bar skill2">
+						<div class="progress-bar-fill"></div>
+						<span>Adobe Photoshop</span>
+					</div>
+						<div class="progress-bar skill3">
+						<div class="progress-bar-fill"></div>
+						<span>Design</span>
+					</div>
+					<div class="progress-bar skill4">
+						<div class="progress-bar-fill"></div>
+						<span>Github</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="projects">
+		<div class="container">
+			<h3>My Projects.</h3>
+		</div>
+		<div class="flex">
+			<div class="project project1">
+				<div class="project-text"><h5>Dirds</h5>
+				<span>Website</span></div>
+			</div>
+			<div class="project project2">
+				<div class="project-text"><h5>Field</h5>
+				<span>Photo</span></div>
+			</div>
+			<div class="project project3">
+				<div class="project-text"><h5>Bridge</h5>
+				<span>Illustration</span></div>
+			</div>
+			<div class="project project4">
+				<div class="project-text"><h5>Raybans</h5>
+				<span>Website</span></div>
+			</div>
+			<div class="project project5">
+				<div class="project-text"><h5>Sand</h5>
+				<span>Website</span></div>
+			</div>
+			<div class="project project6">
+				<div class="project-text"><h5>People</h5>
+				<span>Website</span></div>
+			</div>
+			<div class="project project7">
+				<div class="project-text"><h5>Beach</h5>
+				<span>Graphic</span></div>
+			</div>
+			<div class="project project8">
+				<div class="project-text"><h5>Lake</h5>
+				<span>Website</span></div>
+			</div>
+			<div class="project project9">
+				<div class="project-text"><h5>Sky</h5>
+				<span>Website</span></div>
+			</div>
+			<div class="project project10">
+				<div class="project-text"><h5>Ocean</h5>
+				<span>Website</span></div>
+			</div>
+		</div>
+	</section>
+	<section id="contacts">
+		<div class="container flex">
+			<div class="left-side cont">
+				<h3>Get in touch</h3>
+				<p class="text-about text-contacts">Let's work together. Submit your details in this form and I will get back to you ASAP.</p>
+			</div>
+			<div class="right-side">
+				<form>
+					<input type="text" class="fill name" placeholder="Name">
+					<input type="text" class="fill email" placeholder="Email adress">
+					<input type="text" class="fill budget" placeholder="Budget (optional)">
+					<input type="text" class="fill describe" placeholder="Describe your project...">
+					<input type="submit" class="fill submit" value="Send inqury">
+				</form>
+			</div>
+
+		</div>
+
+	</section>
+	<footer id="footer">
+		<div class="container flex">
+			<div class="left-side">
+				<p class="footer-text">John Smith</p>
+			</div>
+			<div class="right-side foot">
+				<a href="#"><i class="ri-mail-line icons"></i></a>
+				<a href="#"><i class="ri-facebook-circle-fill icons"></i></a>
+				<a href="#"><i class="ri-twitter-fill icons" ></i></a>
+				<a href="#"><i class="ri-behance-fill icons"></i></a>
+				<a href="#"><i class="ri-basketball-line icons"></i></a>
+				<a href="#"><i class="ri-instagram-fill icons"></i></a>
+			</div>
+
+
+
+
+
+		</div>
+	</footer>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+ <script type="text/javascript"> 
+ $('header ul li a[href*="#"]').click(function() { 
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        && location.hostname == this.hostname) { 
+            var $target = $(this.hash); 
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']'); 
+            if ($target.length) { 
+                var targetOffset = $target.offset().top - 100; 
+                $('html,body').animate({scrollTop: targetOffset}, 1000); 
+                return false; 
+            } 
+        } 
+    }); 
+ </script>
+</body>
+</html>
